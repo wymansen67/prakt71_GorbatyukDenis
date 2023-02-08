@@ -2,12 +2,12 @@ import java.lang.NumberFormatException
 
 fun main() = try {
     println("Введите точки x1,y1,x2,y2,x3,y3:")
-    var xone: Double = readLine()!!.toDouble()
-    var yone: Double = readLine()!!.toDouble()
-    var xtwo: Double = readLine()!!.toDouble()
-    var ytwo: Double = readLine()!!.toDouble()
-    var xthree: Double = readLine()!!.toDouble()
-    var ythree: Double = readLine()!!.toDouble()
+    var xone: Double = readln().toDouble()
+    var yone: Double = readln().toDouble()
+    var xtwo: Double = readln().toDouble()
+    var ytwo: Double = readln().toDouble()
+    var xthree: Double = readln().toDouble()
+    var ythree: Double = readln().toDouble()
 
     var x: Double
     var y: Double

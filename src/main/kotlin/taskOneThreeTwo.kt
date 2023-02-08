@@ -2,9 +2,9 @@ import java.lang.NumberFormatException
 
 fun main() = try {
     println("Введите x,y,z")
-    var x: Int = readLine()!!.toInt()
-    var y: Int = readLine()!!.toInt()
-    var z: Int = readLine()!!.toInt()
+    var x: Int = readln().toInt()
+    var y: Int = readln().toInt()
+    var z: Int = readln().toInt()
     print("u=")
     if (x < z) {
         print(Math.max(x, y))

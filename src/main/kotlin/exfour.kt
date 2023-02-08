@@ -7,18 +7,21 @@ fun main() = try {
     var max: Double
     var min: Double
 
-    if ( a > b ) max = a
+    if (a > b) max = a
     else max = b
     if (max < c) max = c
-    else {}
+    else {
+    }
 
-    if ( a > b ) min = b
+    if (a > b) min = b
     else min = a
     if (min > c) min = c
-    else {}
+    else {
+    }
 
     P = max + min / 2
     println(P)
 
+} catch (e: NumberFormatException) {
+    println("Введено недопустимое значение")
 }
-catch(e: NumberFormatException) { println("Введено недопустимое значение") }

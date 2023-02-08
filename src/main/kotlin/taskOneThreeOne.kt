@@ -2,7 +2,7 @@ import java.lang.NumberFormatException
 
 fun main() = try {
     println("Введите длину окружности")
-    var l: Double = readLine()!!.toDouble()
+    var l: Double = readln().toDouble()
 
     var s: Double
     var r: Double

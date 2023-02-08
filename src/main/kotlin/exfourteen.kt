@@ -6,9 +6,11 @@ fun main() = try {
 
     var z1: Int = x - y
     var z2: Int = m / n
-    if ( z1 < z2 ) x + 1
-    else {}
+    if (z1 < z2) x + 1
+    else {
+    }
 
     println(x)
- }
-catch(e: NumberFormatException) { println("Введено недопустимое значение") }
+} catch (e: NumberFormatException) {
+    println("Введено недопустимое значение")
+}
