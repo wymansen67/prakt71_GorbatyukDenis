@@ -17,7 +17,7 @@ fun main() = try {
         exitProcess(0)
     }
     else if (D >= 0.0){
-        x1 = b.pow(2) + Math.sqrt(D) / 2 * k
+        var x1 = b.pow(2) + Math.sqrt(D) / 2 * k
         x2 = b.pow(2) - Math.sqrt(D) / 2 * k
     }
     else{
