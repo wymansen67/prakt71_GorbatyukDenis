@@ -16,7 +16,7 @@ fun main() = try {
         println("Точек пересечения нет")
         exitProcess(0)
     } else if (D >= 0.0) {
-        var x1 = b.pow(2) + Math.sqrt(D) / 2 * k
+        x1 = b.pow(2) + Math.sqrt(D) / 2 * k
         x2 = b.pow(2) - Math.sqrt(D) / 2 * k
     } else {
         x1 = b.pow(2) + Math.sqrt(D) / 2 * k

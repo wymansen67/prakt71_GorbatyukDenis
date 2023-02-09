@@ -9,6 +9,7 @@ fun main() = try {
     var x2: Double = 0.0
 
     var D: Double = b.pow(2) - 4 * k * a
+
     if (D == 0.0) {
         println("Точек пересечения нет")
         exitProcess(0)
