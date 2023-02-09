@@ -2,7 +2,7 @@ fun main() = try {
     println("Введите первый член геометрической прогресси")
     var b1 = readln().toInt()
     println("Введите знаменатель геометрической прогрессии")
-    var q = readln().toDouble()
+    var q = readln().toInt()
     var bn: Int
     println("Введите конечный элемент прогрессии")
     do {
@@ -12,7 +12,7 @@ fun main() = try {
 
     var sum: Double
 
-    sum = (bn * q - b1 / q - 1)
+    sum = ((bn * q - b1 / q - 1).toDouble())
 
     println("Сумма элементов геометрической прогрессии от $b1 до $bn равна $sum")
 
